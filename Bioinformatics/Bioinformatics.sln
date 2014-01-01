@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "ProblemDNA", "ProblemDNA\ProblemDNA.fsproj", "{09460FA0-1E58-477F-BF31-C39DBF16A9B4}"
 EndProject
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "ProblemRNA", "ProblemRNA\ProblemRNA.fsproj", "{5D16509E-398F-42FA-92FB-F354778D9F4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{09460FA0-1E58-477F-BF31-C39DBF16A9B4}.Debug|x86.Build.0 = Debug|x86
 		{09460FA0-1E58-477F-BF31-C39DBF16A9B4}.Release|x86.ActiveCfg = Release|x86
 		{09460FA0-1E58-477F-BF31-C39DBF16A9B4}.Release|x86.Build.0 = Release|x86
+		{5D16509E-398F-42FA-92FB-F354778D9F4A}.Debug|x86.ActiveCfg = Debug|x86
+		{5D16509E-398F-42FA-92FB-F354778D9F4A}.Debug|x86.Build.0 = Debug|x86
+		{5D16509E-398F-42FA-92FB-F354778D9F4A}.Release|x86.ActiveCfg = Release|x86
+		{5D16509E-398F-42FA-92FB-F354778D9F4A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ProblemDNA\ProblemDNA.fsproj
