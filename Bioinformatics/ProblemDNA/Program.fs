@@ -7,10 +7,13 @@ module ProblemDNA.Main
 
 open System
 
-let someFunction x y = x + y
-
 [<EntryPoint>]
 let main args = 
-    Console.WriteLine("Hello world!")
-    0
+    let result =
+        args.[0]
+        |> Seq.countBy(fun c -> c)
+        |> Map.ofSeq
 
+    printfn "%i %i %i %i" result.['A'] result.['C'] result.['G'] result.['T']
+
+    0
