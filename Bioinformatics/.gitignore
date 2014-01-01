@@ -1,1 +1,8 @@
+# User files
+
 *.userprefs
+
+# Build artifacts
+
+bin/
+obj/
